@@ -72,7 +72,7 @@ $(document).on("click", '.dunker', function() {
         });
 
     $(document).on("click", ".frame", function() {
-    	console.log("clicked!");
+        console.log("clicked!");
         var state = $(this).attr("data-state");
         if (state === "still") {
             $(this).attr("src", $(this).attr("data-animate"));
@@ -87,6 +87,4 @@ $(document).on("click", '.dunker', function() {
 
 
 });
-
-
 
